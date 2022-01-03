@@ -9,19 +9,9 @@ body {
 }
 
 h1 {
-  color: #fff;
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
   text-align: center;
-  text-shadow: 0 1px 0 #fff;
 }
 
 h2 {
-  color: #fff;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  text-shadow: 0 1px 0 #fff;
+  text-align: left;
 }

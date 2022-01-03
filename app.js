@@ -6,6 +6,10 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/programming-jokes.html");
+});
+
+app.get("/joke", (req, res) => {
   const jokeUrl = "https://v2.jokeapi.dev/joke/Programming?type=twopart";
 
   https.get(jokeUrl, (response) => {
